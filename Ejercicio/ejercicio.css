@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedor {
+    width: 400px;
+    display: flex;
+    text-align: center;
+    box-shadow: 14px 7px 24px -7px rgba(0,0,0,0.75);
+}
+
+.Result {
+    border-radius: 30px;
+    background-color: #5e3df7;
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.Result h5, 
+.Sumary h5 {
+margin-bottom: 10px;
+font-size: 18px;
+}
+
+.Porcentaje {
+    background-color:#4a26d6;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.Result h6{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.Result p {
+    font-size: 13px;
+}
+
+.Result span {
+    font-size: 40px;
+}
+
+
+.Sumary {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.Sumary ul {
+    list-style: none;
+}
+
+.Sumary ul li {
+    background-color: yellowgreen;
+    margin: 20px 0;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Sumary button {
+    background-color: #34395a;
+    width: 100%;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
